@@ -8,6 +8,7 @@
 ## Microservices
 
 - [svc-auth](https://github.com/dz-market/svc-auth) - authentication service: identity, tokens and sessions
+- [svc-user](https://github.com/dz-market/svc-user) - user service: profiles and personal data
 
 ## Contracts
 
