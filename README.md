@@ -1,20 +1,27 @@
+<div align="center">
+
 # Marketplace
 
-> A distributed marketplace backend built with Go.
+A distributed marketplace backend built with Go
+
+[![License](https://img.shields.io/github/license/dz-market/marketplace)](LICENSE)
+
+</div>
 
 > [!IMPORTANT]
 > Project is under active development.
 
-## Microservices
+## Repositories
 
-- [svc-auth](https://github.com/dz-market/svc-auth) - authentication service: identity, tokens and sessions
-- [svc-user](https://github.com/dz-market/svc-user) - user service: profiles and personal data
+| Repository | Purpose |
+| --- | --- |
+| [svc-auth](https://github.com/dz-market/svc-auth) | Authentication, tokens and sessions |
+| [svc-user](https://github.com/dz-market/svc-user) | User profiles and personal data |
+| [platform](https://github.com/dz-market/platform) | Shared Go libraries |
+| [protobuf](https://github.com/dz-market/protobuf) | API and evnet contracts |
+| [infra](https://github.com/dz-market/infra) | Local environment and infrastructure configuration |
+| [.github](https://github.com/dz-market/.github) | Shared CI workflows and organization profile |
 
-## Contracts
+## Run
 
-- [protobuf](https://github.com/dz-market/protobuf) - API contracts with generated Go code and OpenAPI specs
-
-## Infrastructure
-
-- [infra](https://github.com/dz-market/infra) - service orchestration and environment configuration
-- [.github](https://github.com/dz-market/.github) - reusable CI workflows and organization defaults
+See [infra](https://github.com/dz-market/infra) for local setup and each service repository for development instructions.
