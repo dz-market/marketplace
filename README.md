@@ -13,14 +13,24 @@ A distributed marketplace backend built with Go
 
 ## Repositories
 
-| Repository | Purpose |
-| --- | --- |
-| [svc-auth](https://github.com/dz-market/svc-auth) | Authentication, tokens and sessions |
-| [svc-user](https://github.com/dz-market/svc-user) | User profiles and personal data |
-| [platform](https://github.com/dz-market/platform) | Shared Go libraries |
-| [protobuf](https://github.com/dz-market/protobuf) | API and evnet contracts |
-| [infra](https://github.com/dz-market/infra) | Local environment and infrastructure configuration |
-| [.github](https://github.com/dz-market/.github) | Shared CI workflows and organization profile |
+### Microservices
+
+- [svc-auth](https://github.com/dz-market/svc-auth) - Authentication, tokens and sessions.
+- [svc-user](https://github.com/dz-market/svc-user) - User profiles and personal data.
+
+### Libraries and contracts
+
+- [platform](https://github.com/dz-market/platform) - Shared Go libraries.
+- [protobuf](https://github.com/dz-market/protobuf) - API and event contracts.
+
+### Infrastructure
+
+- [infra](https://github.com/dz-market/infra) - Local environment and infrastructure configuration.
+
+### Automation and organization
+
+- [github-actions](https://github.com/dz-market/github-actions) - Shared Github Actions and reusable CI/CD workflows.
+- [.github](https://github.com/dz-market/.github) - Organization profile.
 
 ## Run
 
